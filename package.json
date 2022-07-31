@@ -1,0 +1,14 @@
+{
+  "name": "asincronismo-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callbacks/challenge.js"
+  },
+  "author": "Aracely Alba @AshkoreDev",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
