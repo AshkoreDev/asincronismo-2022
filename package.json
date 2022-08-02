@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "callback": "node src/callbacks/challenge.js"
+    "callback": "node src/callbacks/challenge.js",
+    "promise": "node src/promises/challenge.js"
   },
   "author": "Aracely Alba @AshkoreDev",
   "license": "MIT",
   "dependencies": {
+    "node-fetch": "^3.2.10",
     "xmlhttprequest": "^1.8.0"
-  }
+  }, 
+  "type": "module"
 }
