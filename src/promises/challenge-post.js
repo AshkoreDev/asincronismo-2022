@@ -10,8 +10,8 @@ function postData(urlApi, data) {
 		method: 'POST',
 		mode: 'cors',
 		credentials: 'same-origin',
-		header: {
-			'Content-type': 'application/json'
+		headers: {
+			'Content-Type': 'application/json'
 		},
 		body: JSON.stringify(data)
 	});
@@ -19,3 +19,17 @@ function postData(urlApi, data) {
 	return response;
 }
 
+const data = {
+
+	"title": "New Product Course",
+	"price": 8000,
+	"description": "A description",
+	"categoryId": 1,
+	"images": [
+		"https://placeimg.com/640/480/any"
+	]
+}
+
+postData(`${API}/products`, data)
+	.then((response) => response.json())
+	.then((data) => console.log(data))
