@@ -7,7 +7,8 @@
     "callback": "node src/callbacks/challenge.js",
     "promise": "node src/promises/challenge.js",
     "promise-post": "node src/promises/challenge-post.js",
-    "async-await": "node src/async-await/challenge.js"
+    "async-await": "node src/async-await/challenge.js",
+    "generators": "node src/generators/index.js"
   },
   "author": "Aracely Alba @AshkoreDev",
   "license": "MIT",
