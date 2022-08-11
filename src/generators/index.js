@@ -28,3 +28,5 @@ const array = ['Julia', 'Luna', 'Marta', 'Grecia', 'Ana'];
 const it = iterate(array);
 
 console.log(it.next().value);
+console.log(it.next().value);
+console.log(it.next().value);
